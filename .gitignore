@@ -1,5 +1,9 @@
-# Just a copy/paste from https://github.com/dotnet/core/blob/master/.gitignore
+# Ignore built artifacts
+EmbeddedBrowser*.tar.gz
 
+# Ignore unzipped build artifacts, incase of extracting while working then git comitting
+EmbeddedBrowser-*/
+# Just a copy/paste from https://github.com/dotnet/core/blob/master/.gitignore
 *.swp
 *.*~
 project.lock.json

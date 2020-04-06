@@ -1,10 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "G6nyxZ8DP7HnwEcSYSTR/8Vv8MsP6Vkugy3W29E7AQ+84Oqv2kUj9cFz9/rBYV9n0jPMI+JSswbiIEO1Kx9fFQ==",
+  "dgSpecHash": "k1xbkDy4/D1Idg3D6tWPKL/VgDC75z/6S5NiVR/7Z3rpXlpvLJFj1FQLcAww968ZSASV61BhG6sYeSdjyf7d7w==",
   "success": true,
   "projectFilePath": "/Users/mnitchie/git/EmbeddedBrowsers/EmbeddedBrowser/EmbeddedBrowser.csproj",
   "expectedPackageFiles": [
-    "/Users/mnitchie/.nuget/packages/webwindow/0.1.0-20191120.3/webwindow.0.1.0-20191120.3.nupkg.sha512"
+    "/Users/mnitchie/.nuget/packages/webwindow/0.1.0-20191120.3/webwindow.0.1.0-20191120.3.nupkg.sha512",
+    "/Users/mnitchie/.nuget/packages/microsoft.netcore.app.runtime.win-x64/3.1.3/microsoft.netcore.app.runtime.win-x64.3.1.3.nupkg.sha512",
+    "/Users/mnitchie/.nuget/packages/microsoft.netcore.app.runtime.osx-x64/3.1.3/microsoft.netcore.app.runtime.osx-x64.3.1.3.nupkg.sha512",
+    "/Users/mnitchie/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/3.1.3/microsoft.netcore.app.runtime.linux-x64.3.1.3.nupkg.sha512",
+    "/Users/mnitchie/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/3.1.3/microsoft.aspnetcore.app.runtime.win-x64.3.1.3.nupkg.sha512",
+    "/Users/mnitchie/.nuget/packages/microsoft.aspnetcore.app.runtime.osx-x64/3.1.3/microsoft.aspnetcore.app.runtime.osx-x64.3.1.3.nupkg.sha512",
+    "/Users/mnitchie/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/3.1.3/microsoft.aspnetcore.app.runtime.linux-x64.3.1.3.nupkg.sha512",
+    "/Users/mnitchie/.nuget/packages/microsoft.netcore.app.host.win-x64/3.1.3/microsoft.netcore.app.host.win-x64.3.1.3.nupkg.sha512",
+    "/Users/mnitchie/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.3/microsoft.netcore.app.host.linux-x64.3.1.3.nupkg.sha512"
   ],
   "logs": []
 }
