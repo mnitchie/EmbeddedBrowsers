@@ -19,7 +19,9 @@ Execute `.\TheWorstBrowser.exe` from the command line, or double-click the icon.
 
 2. Make sure csc is in your path. For me this lives in `C:\Windows\Microsoft.NET\Framework64\v4.0.30319`. Edit your path by opening the start menu and typing `path`, then select `Edit the system environment variables`. Click `Environment Variables`, select `Path` under `System Variables` and add an entry/validate that an entry exists.
 
-3. Make your edits and compile with csc TheWorstBrowser.cs. You may need to restart your terminal session if you edited your path after it was already opened.
+3. Make your edits and compile with `csc TheWorstBrowser.cs`. You may need to restart your terminal session if you edited your path after it was already opened.
+
+4. To "Release" a new version, upload `TheWorstBrowser.exe` to [the wiki](https://wiki.duosec.org/display/dev/Embedded+Browsers).
 
 ## Note
 For the absolute worst experience possible, try removing `<meta http-equiv="X-UA-Compatible" content="IE=11">` from the page serving up the prompt, if present. Try setting `content` to different options. [More] (https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do)

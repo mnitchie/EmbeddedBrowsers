@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LdqUHlkhOVefvul/x/qvofupSgMKVEHohoYewAAjfFUL+Swa19qsVs0Cu+wtZWwjzYgIWyVYi7K+iEZg2HUqRA==",
+  "dgSpecHash": "G6nyxZ8DP7HnwEcSYSTR/8Vv8MsP6Vkugy3W29E7AQ+84Oqv2kUj9cFz9/rBYV9n0jPMI+JSswbiIEO1Kx9fFQ==",
   "success": true,
   "projectFilePath": "/Users/mnitchie/git/EmbeddedBrowsers/EmbeddedBrowser/EmbeddedBrowser.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/mnitchie/.nuget/packages/webwindow/0.1.0-20191120.3/webwindow.0.1.0-20191120.3.nupkg.sha512"
+  ],
   "logs": []
 }

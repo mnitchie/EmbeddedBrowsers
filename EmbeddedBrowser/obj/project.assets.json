@@ -1,11 +1,58 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "WebWindow/0.1.0-20191120.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/WebWindow.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/WebWindow.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/WebWindow.Native.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/WebWindow.Native.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/WebView2Loader.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/WebWindow.Native.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "WebWindow/0.1.0-20191120.3": {
+      "sha512": "8l8PTkYfEMqLx/7cU+PnCAGD54lhUynDtLo23P6mF6zwmmvPiEHsEg7jzOu3QOuIxm3GDBfcKSmYLly4G5FTDw==",
+      "type": "package",
+      "path": "webwindow/0.1.0-20191120.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/WebWindow.dll",
+        "runtimes/linux-x64/native/WebWindow.Native.so",
+        "runtimes/osx-x64/native/WebWindow.Native.dylib",
+        "runtimes/win-x64/native/WebView2Loader.dll",
+        "runtimes/win-x64/native/WebWindow.Native.dll",
+        "webwindow.0.1.0-20191120.3.nupkg.sha512",
+        "webwindow.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "WebWindow >= 0.1.0-20191120.3"
+    ]
   },
   "packageFolders": {
     "/Users/mnitchie/.nuget/packages/": {}
@@ -41,6 +88,12 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "dependencies": {
+          "WebWindow": {
+            "target": "Package",
+            "version": "[0.1.0-20191120.3, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
