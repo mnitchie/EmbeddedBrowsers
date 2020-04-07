@@ -1,0 +1,26 @@
+<h1>The Embedded Browser</h1>
+
+<!-- Inject script from program.cs. options.SchemaHandlers.add("app", ...)-->
+<!-- <script src="app://something.js"></script> -->
+
+<form id="urlForm">
+    <label for="url">Navigate to any url: </label><input type="text" name="url" id="url">
+    <button type="submit">Go!</button>
+</form>
+
+<form id="usernameForm">
+    <label for="url">Or go to localhost:8080 with username </label><input type="text" name="username" id="username">
+    <button type="submit">Go!</button>
+</form>
+
+<script>
+    document.querySelector('#urlForm').onsubmit = function(e) {
+        e.preventDefault();
+        window.location.href = document.querySelector('#url').value;
+    };
+
+    document.querySelector('#usernameForm').onsubmit = function(e) {
+        e.preventDefault();
+        window.location.href = `http://localhost:8080/?user=${document.querySelector('#username').value}`;
+    };
+</script>

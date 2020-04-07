@@ -1,5 +1,6 @@
 ﻿using System;
 using WebWindows;
+using System.IO;
 
 namespace EmbeddedBrowser
 {
@@ -7,9 +8,12 @@ namespace EmbeddedBrowser
     {
         public static void Main(string[] args)
         {
-            var window = new WebWindow("My super app");
-            window.NavigateToString("<h1>Hello, world!</h1> This window is from a .NET Core app.");
+            var execPath = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            var window = new WebWindow("The Embedded Browser");
+            window.ShowMessage("", System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location));
+            window.NavigateToLocalFile(Path.Combine(execPath, "index.html"));
             window.WaitForExit();
         }
     }
 }
+
