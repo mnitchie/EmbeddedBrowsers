@@ -2,6 +2,7 @@
 # The Embedded Browser
 
 ## Background
+
 Many of our users experience the prompt in a browser that is embedded in a desktop application. The anyconnect VPN and global protect VPNs are good examples of this. These browsers have their own set of quirks that are different from their standalone browser counterparts, and can be difficult to debug. The Embedded Browser is a cross-platform embedded browser. Depending on the OS it will provide a different rendering experience.
 
 1. Mac OS - A webkit-based browser with user-agent `Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko)`. The UA string provided by the anyconnect VPN currently is: `Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) AnyConnect/4.8.01090 (mac-intel)`. These are both based on mac's [WKWebview](https://developer.apple.com/documentation/webkit/wkwebview)
@@ -10,7 +11,9 @@ Many of our users experience the prompt in a browser that is embedded in a deskt
 
 This is taken from [here](https://blog.stevensanderson.com/2019/11/18/2019-11-18-webwindow-a-cross-platform-webview-for-dotnet-core/)
 
+
 ## To develop
+
 1. Download the .net core 3.1+ sdk from [here](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.201-macos-x64-installer)
 2. After installation, close/re-open a terminal and type `dotnet` to verify installation was successful
     * If you get the error message `dotnet command not found`, add the following to your `~/.bash_profile`, restart your terminal session, and try again: `test -x /usr/libexec/path_helper && eval $(/usr/libexec/path_helper -s)`
@@ -18,6 +21,7 @@ This is taken from [here](https://blog.stevensanderson.com/2019/11/18/2019-11-18
 3. `dotnet run`. This will pull down any/all needed dependencies then run the application.
 
 ## To build and deploy a new version
+
 1. Execute `./package.sh`. This will create three platform-specific versions of the browser EmbeddedBrowser directory:
     1. EmbeddedBrowser-linux-x64.tar.gz
     2. EmbeddedBrowser-osx-x64.tar.gz
@@ -27,6 +31,7 @@ This is taken from [here](https://blog.stevensanderson.com/2019/11/18/2019-11-18
 3. Upload to [the wiki](https://wiki.duosec.org/display/dev/Embedded+Browsers).
 
 ## To run
+
 1. Download/extract the compressed file for your platform of choice from [the wiki](https://wiki.duosec.org/display/dev/Embedded+Browsers).
     1. If you're on windows you must also:
         1. Download/install Edge

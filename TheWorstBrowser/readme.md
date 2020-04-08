@@ -27,8 +27,9 @@ Execute `.\TheWorstBrowser.exe` from the command line, or double-click the icon.
 For the absolute worst experience possible, try removing `<meta http-equiv="X-UA-Compatible" content="IE=11">` from the page serving up the prompt, if present. Try setting `content` to different options. [More] (https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do)
 
 ## References:
-https://stackoverflow.com/questions/790542/replacing-net-webbrowser-control-with-a-better-browser-like-chrome
-https://stackoverflow.com/questions/1786905/web-browser-component-is-ie7-not-ie8-how-to-change-this
-https://docs.microsoft.com/en-us/dotnet/framework/winforms/how-to-create-a-windows-forms-application-from-the-command-line 
-https://docs.microsoft.com/en-us/dotnet/framework/winforms/controls/how-to-add-web-browser-capabilities-to-a-windows-forms-application
-https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.webbrowser?view=netframework-4.8
+
+1. https://stackoverflow.com/questions/790542/replacing-net-webbrowser-control-with-a-better-browser-like-chrome
+2. https://stackoverflow.com/questions/1786905/web-browser-component-is-ie7-not-ie8-how-to-change-this
+3. https://docs.microsoft.com/en-us/dotnet/framework/winforms/how-to-create-a-windows-forms-application-from-the-command-line 
+4. https://docs.microsoft.com/en-us/dotnet/framework/winforms/controls/how-to-add-web-browser-capabilities-to-a-windows-forms-application
+5. https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.webbrowser?view=netframework-4.8
