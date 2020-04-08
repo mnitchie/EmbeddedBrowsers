@@ -1,5 +1,6 @@
 # Ignore built artifacts
 EmbeddedBrowser*.tar.gz
+EmbeddedBrowser*.zip
 
 # Ignore unzipped build artifacts, incase of extracting while working then git comitting
 EmbeddedBrowser-*/
