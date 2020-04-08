@@ -11,6 +11,7 @@ Enter TheWorstBrowser. It's a simple thick client that wraps internet explorer u
 Execute `.\TheWorstBrowser.exe` from the command line, or double-click the icon.
 
 ## Developing it
+
 1. You need a development environment with the .NET sdk [4.7.2+](https://dotnet.microsoft.com/download/dotnet-framework/net472). Microsoft [offers a ready-made vm](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/), but I have had no luck getting it installed and running. The windows team probably has laptops laying around you could try. I used AWS workspaces, utilizing a `standard` tier windows 10 build, and it worked pretty well. I manually downloaded and installed
     1. The .net sdk linked above
     2. vscode
